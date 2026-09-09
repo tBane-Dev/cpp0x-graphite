@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "cpp0x - dark theme",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["*://cpp0x.pl/*"],
+      "css": ["release.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

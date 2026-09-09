@@ -1,0 +1,1430 @@
+/*
+ * cpp0x.pl — ciemny motyw "Graphite" dla Twojego rozszerzenia.
+ * Oryginalny arkusz serwisu nadal odpowiada za układ i działanie strony.
+ * Ten plik nadpisuje jego kolory. Nie wymaga JavaScriptu ani dodatkowych plików.
+ *
+ * Kolory są wpisane bezpośrednio w regułach CSS.
+ * !important i zapewniają działanie także przy document_start.
+ * Motyw działa na ekranie; wydruk korzysta z oryginalnego stylu strony.
+ */
+@media screen {
+html {
+    color-scheme: dark;
+}
+
+/* Reguły dopasowane do selektorów w przesłanym release.css. */
+body {
+    background: #12161d !important;
+}
+
+h1 {
+    color: #a5b4c7 !important;
+}
+
+h2 {
+    color: #f2a0b0 !important;
+}
+
+h3 {
+    color: #f2a0b0 !important;
+}
+
+h4 {
+    color: #f2a0b0 !important;
+}
+
+a:link,
+a:active,
+a:visited,
+body.Mobile a:hover {
+    color: #91baff !important;
+}
+
+body.Desktop a:hover {
+    color: #b97d38 !important;
+}
+
+a * {
+    color: inherit !important;
+}
+
+span.DisabledLink {
+    color: #b97d38 !important;
+}
+
+table,
+td,
+th {
+    border-color: #36465b !important;
+}
+
+del {
+    color: #f2a0b0 !important;
+    background: #12161d !important;
+}
+
+ins {
+    color: #06762f !important;
+    background: #12161d !important;
+}
+
+*.BanerGradient,
+*.BlueGradient,
+table.FormsLayout > tbody > tr > th {
+    color: #06762f !important;
+    background: linear-gradient(135deg, #283e58, #1d2c40) !important;
+}
+
+*.GreyGradient,
+table > tbody > tr > th {
+    color: #dce5f1 !important;
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+}
+
+*.LightBlueGradient {
+    color: #dce5f1 !important;
+    background: linear-gradient(135deg, #283e58, #1d2c40) !important;
+}
+
+*.RedGradient {
+    color: #dce5f1 !important;
+    background: linear-gradient(to bottom, #d30000 0%, #920811 90%) !important;
+}
+
+div.SiteHeader {
+    background: #12161d !important;
+    color: #dce5f1 !important;
+}
+
+body.Desktop div.SiteHeader {
+    border-bottom-color: #36465b !important;
+}
+
+div.SiteHeader div.Keywords {
+    background: #12161d !important;
+    color: #b97d38 !important;
+}
+
+body.Mobile div.SiteHeader div.Keywords {
+    border-bottom-color: #36465b !important;
+}
+
+div.SiteBaner div.Languages a {
+    color: #dce5f1 !important;
+    text-shadow: none !important;
+}
+
+div.SiteBaner div.Languages img {
+    border-color: #36465b !important;
+}
+
+body.Desktop div.SiteBaner {
+    border-bottom-color: #36465b !important;
+}
+
+div.SiteBaner a:link,
+div.SiteBaner a:active,
+div.SiteBaner a:visited,
+div.SiteBaner a:hover {
+    color: #91baff !important;
+}
+
+div.SiteBaner div.Authorize a:link,
+div.SiteBaner div.Authorize a:active,
+div.SiteBaner div.Authorize a:visited,
+div.SiteBaner div.Authorize a:hover {
+    color: #dce5f1 !important;
+}
+
+body.Desktop div.SiteBaner div.Authorize {
+    border-color: #36465b !important;
+}
+
+body.Mobile div.SiteBaner div.Authorize {
+    border-color: #36465b !important;
+}
+
+body.Desktop div.SiteTopMenu ul a:link,
+body.Desktop div.SiteTopMenu ul a:active,
+body.Desktop div.SiteTopMenu ul a:visited {
+    background-color: #1b222d !important;
+    color: #dce5f1 !important;
+    border-color: #36465b !important;
+}
+
+body.Desktop div.SiteTopMenu ul a:hover {
+    background-color: #1b222d !important;
+    color: #91baff !important;
+    border-color: #4d6b95 !important;
+}
+
+body.Desktop div.SiteTopMenu ul li.Special a:link,
+body.Desktop div.SiteTopMenu ul li.Special a:active,
+body.Desktop div.SiteTopMenu ul li.Special a:visited {
+    background-color: #8b8350 !important;
+}
+
+body.Desktop div.SiteTopMenu ul li.Special a:hover {
+    background-color: #8b8350 !important;
+}
+
+body.Mobile div.SiteTopMenu {
+    border-top-color: #36465b !important;
+    border-bottom-color: #36465b !important;
+}
+
+body.Mobile div.SiteTopMenu ul li {
+    border-color: #36465b !important;
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+}
+
+body.Mobile div.SiteTopMenu ul li a {
+    color: #dce5f1 !important;
+}
+
+body.Mobile div.SiteTopMenu ul li {
+    border-color: #36465b !important;
+}
+
+span.UserName {
+    color: #a5b4c7 !important;
+}
+
+div.SiteBottomMenu ul {
+    border-top-color: #36465b !important;
+}
+
+div.SiteFooter {
+    border-top-color: #36465b !important;
+    background-color: #12161d !important;
+    color: #dce5f1 !important;
+}
+
+table.Report {
+    border-color: #36465b !important;
+}
+
+table.Report tr.Normal {
+    background-color: #1a342c !important;
+}
+
+table.Report tr.Warning {
+    background-color: #8b8350 !important;
+}
+
+table.Report tr.Error {
+    background-color: #39252f !important;
+}
+
+table.Report td {
+    border-color: #36465b !important;
+}
+
+table.Report td div.Header {
+    color: #a5b4c7 !important;
+}
+
+table.Report tr.Error td div.Message {
+    color: #f2a0b0 !important;
+}
+
+div.MessageOK {
+    background-color: #1a342c !important;
+    border-color: #3d6656 !important;
+}
+
+div.MessageOK div.Title {
+    color: #06762f !important;
+}
+
+div.MessageError {
+    background-color: #39252f !important;
+    border-color: #6b4150 !important;
+}
+
+div.MessageError div.Title {
+    color: #f2a0b0 !important;
+}
+
+div.Layout div.ViewCount {
+    color: #a5b4c7 !important;
+}
+
+div.Panel div.Content {
+    border-color: #36465b !important;
+}
+
+div.Panel div.Footer {
+    border-color: #36465b !important;
+    background-color: #1b222d !important;
+}
+
+div.Panel hr {
+    border-top-color: #36465b !important;
+}
+
+div#PanelUserMenu div.Panel div.CreateAccount {
+    color: #f2a0b0 !important;
+    border-top-color: #36465b !important;
+    background-color: #8b8350 !important;
+}
+
+div#PanelUserMenu div.Panel div.Welcome {
+    border-bottom-color: #36465b !important;
+    background-color: #8b8350 !important;
+}
+
+div#PanelUserMenu div.Panel div.Welcome div.Account a:link,
+div#PanelUserMenu div.Panel div.Welcome div.Account a:active,
+div#PanelUserMenu div.Panel div.Welcome div.Account a:visited {
+    color: #dce5f1 !important;
+}
+
+div#PanelUserMenu div.Panel div.Welcome div.Account a:hover {
+    color: #b97d38 !important;
+}
+
+div#PanelLastUpdated div.Panel div.Content {
+    color: #dce5f1 !important;
+}
+
+div#PanelLastUpdated div.Panel div.Highlight {
+    background-color: #1a342c !important;
+}
+
+div#PanelLastVisitedTopics div.Panel div.Content {
+    border-bottom-color: #36465b !important;
+    color: #dce5f1 !important;
+}
+
+div#PanelLastVisitedTopics div.Panel div.NotVisited {
+    background-color: #39252f !important;
+    border-bottom-color: #36465b !important;
+}
+
+div#PanelStats div.Panel div.Content {
+    border-bottom-color: #36465b !important;
+    color: #dce5f1 !important;
+}
+
+div#PanelStats div.Panel div.Content:hover {
+    background-color: #8b8350 !important;
+    color: #dce5f1 !important;
+}
+
+div#PanelUserList div.Panel div.Content {
+    border-bottom-color: #36465b !important;
+    color: #dce5f1 !important;
+}
+
+div#PanelUserList div.Panel div.Content:hover {
+    background-color: #8b8350 !important;
+}
+
+div#PanelUserList div.Panel div.Content div.LastSeen {
+    color: #a5b4c7 !important;
+}
+
+div.Home#PanelPage table.Grid td {
+    border-color: #36465b !important;
+}
+
+div.Home#PanelPage table.Grid td:hover {
+    border-color: #4d6b95 !important;
+}
+
+div.News#PanelPage hr {
+    border-top-color: #36465b !important;
+    border-bottom-color: #36465b !important;
+}
+
+div.News#PanelPage table.OstatnioNaForum th.Header {
+    color: #dce5f1 !important;
+}
+
+div.News#PanelPage table.OstatnioNaForum th.Footer {
+    background: #202a37 !important;
+}
+
+div.News#PanelPage table.OstatnioNaForum td.Default {
+    border-color: #36465b !important;
+}
+
+div.News#PanelPage table.OstatnioNaForum td.TopicOwner {
+    background: #8b8350 !important;
+}
+
+div.News#PanelPage table.OstatnioNaForum div.Row div.PostCount {
+    color: #a5b4c7 !important;
+}
+
+div.News#PanelPage hr {
+    border-top-color: #36465b !important;
+    border-bottom-color: #36465b !important;
+}
+
+div.News#PanelPage table.ZmienianeDokumenty th.Header {
+    color: #dce5f1 !important;
+}
+
+div.News#PanelPage table.ZmienianeDokumenty th.Footer {
+    background: #202a37 !important;
+}
+
+div.News#PanelPage table.ZmienianeDokumenty td {
+    border-color: #36465b !important;
+}
+
+div.News#PanelPage table.ZmienianeDokumenty div.Row div.Category {
+    color: #f2a0b0 !important;
+}
+
+div.News#PanelPage div.SingleNews div.Header {
+    color: #dce5f1 !important;
+}
+
+div.News#PanelPage div.SingleNews div.Content {
+    border-color: #36465b !important;
+}
+
+div.News#PanelPage div.SingleNews div.Footer {
+    border-color: #36465b !important;
+    background-color: #1b222d !important;
+}
+
+div.News#PanelPage div.SingleNews div.Description div.Details {
+    border-bottom-color: #36465b !important;
+}
+
+div.News#PanelPage div.RecentlyUpdatedDocument {
+    border-color: #36465b !important;
+}
+
+div.News#PanelPage div.RecentlyUpdatedDocument div.NodeTypeName {
+    color: #dce5f1 !important;
+}
+
+div.News#PanelPage div.RecentlyUpdatedDocument div.Category {
+    color: #f2a0b0 !important;
+}
+
+div.News#PanelPage div.RecentlyUpdatedDocument div.UpdateDT {
+    color: #dce5f1 !important;
+}
+
+div.News#PanelPage div.RecentlyUpdatedDocument div.Footer {
+    border-top-color: #36465b !important;
+    background-color: #1b222d !important;
+}
+
+div.News#PanelPage div.PagePanel {
+    border-top-color: #36465b !important;
+    border-bottom-color: #36465b !important;
+    color: #f2a0b0 !important;
+}
+
+div.Tutorial#PanelPage h2.Static {
+    color: #dce5f1 !important;
+}
+
+div.Tutorial#PanelPage div.FlatList div.Lesson {
+    background-color: #1b222d !important;
+    border-color: #36465b !important;
+    color: #a5b4c7 !important;
+}
+
+div.Tutorial#PanelPage div.FlatList div.Lesson:hover {
+    background-color: #1b222d !important;
+    border-color: #4d6b95 !important;
+    color: #dce5f1 !important;
+}
+
+div.Tutorial#PanelPage div.FlatList div.Lesson div.Title span.RelCategory {
+    color: #f2a0b0 !important;
+}
+
+div.QuestionsSection div.Icon {
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+    border-color: #36465b !important;
+}
+
+div.QuestionsSection div.Description h1,
+div.QuestionsSection div.Description h2 {
+    color: #dce5f1 !important;
+}
+
+div.QuestionsSection div.Description a {
+    color: #dce5f1 !important;
+}
+
+div.QuestionsSection div.Description {
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+    color: #dce5f1 !important;
+}
+
+div.QuestionsSection div.Description div.EditArea input {
+    background: rgba(0, 0, 0, 0.4) !important;
+    color: #a5b4c7 !important;
+}
+
+div.QuestionsSection div.Description div.EditArea input:focus {
+    background: rgba(0, 0, 0, 0.3) !important;
+    color: #dce5f1 !important;
+}
+
+div.QuestionAnswer div.Block {
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+    border-color: #36465b !important;
+}
+
+div.QuestionAnswer div.Block h1 {
+    color: #dce5f1 !important;
+}
+
+div.QuestionAnswer div.Block h2 {
+    color: #dce5f1 !important;
+}
+
+div.QuestionAnswer div.Block div.EditArea input {
+    background: transparent !important;
+}
+
+div.FrameBlue {
+    border-color: #4d6b95 !important;
+}
+
+div.FrameBlue div.Menu {
+    background: #274b80 !important;
+    color: #dce5f1 !important;
+}
+
+div.FrameBlue div.Menu a {
+    color: #dce5f1 !important;
+}
+
+div.FrameRed {
+    border-color: #6b4150 !important;
+}
+
+div.FrameRed div.Menu {
+    background: #39252f !important;
+    color: #dce5f1 !important;
+}
+
+div.FrameRed div.Menu a {
+    color: #dce5f1 !important;
+}
+
+div.FrameComment {
+    border-color: #36465b !important;
+}
+
+div.FrameComment div.Menu {
+    background: #273447 !important;
+    color: #dce5f1 !important;
+}
+
+div.FrameComment div.Menu a {
+    color: #dce5f1 !important;
+}
+
+div.FrameCommentEdit {
+    border-color: #6b4150 !important;
+}
+
+div.FrameCommentEdit div.Menu {
+    background: #39252f !important;
+    color: #dce5f1 !important;
+}
+
+div.FrameCommentEdit div.Menu a {
+    color: #dce5f1 !important;
+}
+
+div.ResourceFrame div.Menu {
+    color: #dce5f1 !important;
+}
+
+span.STCRowNo {
+    color: #a5b4c7 !important;
+    border-right-color: #36465b !important;
+}
+
+span.STCCommand {
+    color: #dce5f1 !important;
+    background-color: #273447 !important;
+    border-color: #36465b !important;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 20%) !important;
+}
+
+table.FormsLayout {
+    border-color: #36465b !important;
+    background: none !important;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 20%) !important;
+}
+
+table.FormsLayout tr {
+    background: none !important;
+}
+
+table.FormsLayout th:first-child {
+    border-bottom-color: #36465b !important;
+}
+
+table.FormsLayout th:last-child {
+    border-top-color: #36465b !important;
+}
+
+table.FormsLayout td {
+    background: none !important;
+}
+
+table.FormsLayout td.Column1 {
+    color: #a5b4c7 !important;
+}
+
+table.FormsLayout input[type='text'],
+table.FormsLayout input[type='password'],
+div.SitePanel input[type='text'],
+div.SitePanel input[type='password'] {
+    border-color: #36465b !important;
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+}
+
+table.FormsLayout input[type='checkbox']:checked + label {
+    color: #06762f !important;
+}
+
+table.FormsLayout hr {
+    border-top-color: #36465b !important;
+}
+
+table.FormsLayout button,
+div.SitePanel button {
+    background: #202a37 !important;
+    border-color: #36465b !important;
+    color: #a5b4c7 !important;
+}
+
+table.FormsLayout button:hover,
+div.SitePanel button:hover {
+    border-color: #36465b !important;
+    color: #dce5f1 !important;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 20%) !important;
+}
+
+table.FormsLayout th.Special {
+    background: #8b8350 !important;
+    color: #dce5f1 !important;
+}
+
+div.Layout div#PanelPage div.copyright {
+    border-color: #6b4150 !important;
+    background-color: #8b8350 !important;
+}
+
+div.Layout div#PanelPage div.copyright div.specialRights {
+    border-top-color: #6b4150 !important;
+    background-color: #8b8350 !important;
+}
+
+div.Layout div#PanelPage div.LimitedAccess {
+    border-color: #6b4150 !important;
+    background-color: #8b8350 !important;
+}
+
+div#PanelPage strong.ShortDescription {
+    color: #a5b4c7 !important;
+}
+
+div#PanelPage div.Library {
+    color: #91baff !important;
+}
+
+div#PanelPage strong.ShortDescription span.Category {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage div.Header {
+    border-bottom-color: #36465b !important;
+}
+
+div#PanelPage div.Footer {
+    border-top-color: #36465b !important;
+}
+
+div#PanelPage table.Path th {
+    background: #202a37 !important;
+    border-color: #36465b !important;
+    color: #dce5f1 !important;
+}
+
+div#PanelPage table.PrevNext td {
+    color: #a5b4c7 !important;
+}
+
+div#PanelPage table.PrevNext td:hover {
+    color: #dce5f1 !important;
+    border-color: #4d6b95 !important;
+}
+
+div#PanelPage table.PrevNext th {
+    color: #dce5f1 !important;
+}
+
+div#PanelPage button {
+    border-color: #36465b !important;
+}
+
+div#PanelPage button:hover {
+    border-color: #4d6b95 !important;
+}
+
+div#PanelPage div.Error {
+    background-color: #39252f !important;
+    border-color: #6b4150 !important;
+}
+
+div#PanelPage div.OK {
+    background-color: #1a342c !important;
+    border-color: #3d6656 !important;
+}
+
+div#PanelPage table.FormularzEdycji {
+    background-color: transparent !important;
+}
+
+div#PanelPage div.Toolbar {
+    background-color: #8b8350 !important;
+    border-top-color: #6b4150 !important;
+    border-bottom-color: #6b4150 !important;
+}
+
+div#PanelPage div.Toolbar div.Type {
+    color: #b97d38 !important;
+}
+
+div#PanelPage div.AdminToolbar {
+    background-color: #39252f !important;
+    border-top-color: #6b4150 !important;
+    border-bottom-color: #6b4150 !important;
+}
+
+div#PanelPage div.AdminToolbar div.Type {
+    color: #b97d38 !important;
+}
+
+div#PanelPage div.ResultRow {
+    border-color: #36465b !important;
+}
+
+div#PanelPage div.ResultRow div.ShortDescription {
+    color: #a5b4c7 !important;
+}
+
+div#PanelPage div.cite {
+    border-color: #36465b !important;
+    background-color: #8b8350 !important;
+}
+
+div#PanelPage div.TextDiff {
+    border-color: #36465b !important;
+    background-color: #1b222d !important;
+}
+
+div#PanelPage div.TextDiff ins {
+    background-color: #1a342c !important;
+}
+
+div#PanelPage div.TextDiff del {
+    background-color: #39252f !important;
+}
+
+div.Documentation#PanelPage h2.Static {
+    color: #dce5f1 !important;
+}
+
+div.Documentation#PanelPage table.FlatList td span.RelCategory {
+    color: #f2a0b0 !important;
+}
+
+div.Documentation#PanelPage div.InsertExternalLink div.Panel div.Footer {
+    background-color: #8b8350 !important;
+}
+
+div#PanelPage table.DocRel {
+    background-color: transparent !important;
+}
+
+div#PanelPage table.DocRel tr th {
+    border-color: #36465b !important;
+    background: #202a37 !important;
+}
+
+div#PanelPage table.DocRel td {
+    border-color: #36465b !important;
+    background: #1b222d !important;
+}
+
+div#PanelPage table.DocRel td span.RelCategory {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage div.codeInfo {
+    border-color: #36465b !important;
+    background: #1b222d !important;
+}
+
+div#PanelPage div.codeInfo div.header {
+    color: #dce5f1 !important;
+    background: #202a37 !important;
+    border-bottom-color: #36465b !important;
+}
+
+div#PanelPage div.code,
+div#PanelPage div.codeCpp,
+div#PanelPage div.codePy,
+div#PanelPage div.codeHaskell {
+    border-color: #36465b !important;
+    background: #1b222d !important;
+}
+
+div#PanelPage div.code {
+    background: #12161d !important;
+    color: #a5b4c7 !important;
+}
+
+div#PanelPage span.text {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage span.textml {
+    color: #b97d38 !important;
+}
+
+div#PanelPage span.rawdelim {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage span.rawstr {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage span.digit {
+    color: #dce5f1 !important;
+}
+
+div#PanelPage span.operator {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage span.comment {
+    color: #a5b4c7 !important;
+}
+
+div#PanelPage span.multiComment {
+    color: #a5b4c7 !important;
+}
+
+div#PanelPage span.block {
+    color: #dce5f1 !important;
+}
+
+div#PanelPage span.semicolon {
+    color: #c7a8fa !important;
+}
+
+div#PanelPage span.comma {
+    color: #c7a8fa !important;
+}
+
+div#PanelPage span.preprocessor {
+    color: #06762f !important;
+}
+
+div#PanelPage span.garbage {
+    color: #c7a8fa !important;
+}
+
+div#PanelPage span.keyword {
+    color: #91baff !important;
+}
+
+div#PanelPage span.keywordCPP11 {
+    color: #91baff !important;
+}
+
+div#PanelPage span.keywordVCPP {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage span.destructor {
+    color: #f2a0b0 !important;
+}
+
+div#PanelPage table.cite {
+    border-color: #36465b !important;
+    background: #8b8350 !important;
+}
+
+div#PanelPage table.cite td {
+    background: transparent !important;
+}
+
+div.divStyle_Attention {
+    background: #39252f !important;
+    border-color: #6b4150 !important;
+}
+
+div.divStyle_Tip {
+    background: #1a342c !important;
+    border-color: #3d6656 !important;
+}
+
+div#PanelPage table.divStyle {
+    background: #8b8350 !important;
+}
+
+div#PanelPage table.divStyle tr,
+div#PanelPage table.divStyle td {
+    background: transparent !important;
+}
+
+div#PanelPage table.divStyle_Attention {
+    background: #39252f !important;
+}
+
+div#PanelPage table.divStyle_Attention tr,
+div#PanelPage table.divStyle_Attention td {
+    background: transparent !important;
+}
+
+div#PanelPage table.divStyle_Tip {
+    background: #1a342c !important;
+}
+
+div#PanelPage table.divStyle_Tip tr,
+div#PanelPage table.divStyle_Tip td {
+    background: transparent !important;
+}
+
+div#PanelPage div.style_Tip {
+    background: #1a342c !important;
+    border-color: #36465b !important;
+}
+
+div.Layout div#PanelPage div.ScrolledImg {
+    background: #1b222d !important;
+}
+
+div.Layout div#PanelPage div.ScrolledImg div.Title {
+    color: #dce5f1 !important;
+    background: linear-gradient(135deg, #283e58, #1d2c40) !important;
+}
+
+div.Layout div#PanelPage div.ScrolledImg div.Content {
+    border-color: #36465b !important;
+}
+
+div.Layout div#PanelPage sub.ExtraLinkDetails span {
+    color: #f2a0b0 !important;
+}
+
+div.Layout div#PanelPage sub.ExtraLinkDetails {
+    color: #f2a0b0 !important;
+}
+
+div.Layout div#PanelPage sup.ExtraLinkDetails {
+    color: #f2a0b0 !important;
+}
+
+div.Layout div#PanelPage div.SearchBySTC div.Header {
+    color: #dce5f1 !important;
+    background: linear-gradient(135deg, #283e58, #1d2c40) !important;
+}
+
+div.Layout div#PanelPage div.SearchBySTC div.Content {
+    border-color: #36465b !important;
+}
+
+div.Layout div#PanelPage div.SearchBySTC div.Footer {
+    color: #f2a0b0 !important;
+    background: #8b8350 !important;
+    border-color: #36465b !important;
+}
+
+div#PanelPage table.FormatCSV {
+    border-color: #36465b !important;
+    background-color: #1b222d !important;
+}
+
+div.ForumPathTop,
+div.ForumPathTop {
+    border-color: #36465b !important;
+    background-color: #202a37 !important;
+}
+
+div.ForumPathBottom,
+div.ForumPathBottom {
+    border-color: #36465b !important;
+    background-color: #202a37 !important;
+}
+
+table.TopicListLayout,
+table.MainLayout,
+table.PostLayout,
+table.Stats {
+    background: #273447 !important;
+}
+
+table.TopicListLayout > tbody > tr > th,
+table.MainLayout > tbody > tr > th,
+table.PostLayout > tbody > tr > th,
+table.Stats > tbody > tr > th {
+    background-color: transparent !important;
+}
+
+table.TopicListLayout > tbody > tr:nth-child(even) > td {
+    background-color: #1b222d !important;
+}
+
+table.TopicListLayout > tbody > tr.Alternative > td,
+table.TopicListLayout > tbody > tr:nth-child(odd) > td {
+    background-color: #202a37 !important;
+}
+
+table.TopicListLayout > tbody > tr > td.Bar,
+table.PostLayout > tbody > tr > td.Bar {
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+    color: #f2a0b0 !important;
+}
+
+table.TopicListLayout > tbody > tr > td.LastPost div.Date {
+    color: #a5b4c7 !important;
+}
+
+table.MainLayout tr td {
+    background: #1b222d !important;
+}
+
+table.MainLayout > tbody > tr.Category > td.LastPost,
+table.MainLayout > tbody > tr.Category > td.PostCount,
+table.MainLayout > tbody > tr.Category > td.TopicCount,
+table.MainLayout > tbody > tr.Category > td.Description,
+table.MainLayout > tbody > tr.Category > td.LastPostIcon {
+    background: #273447 !important;
+    border-top-color: #36465b !important;
+    border-bottom-color: #36465b !important;
+}
+
+table.MainLayout > tbody > tr.Category > td.PostCount,
+table.MainLayout > tbody > tr.Category > td.TopicCount {
+    background: #273447 !important;
+}
+
+table.MainLayout > tbody > tr.Header > th {
+    background: linear-gradient(180deg, #273447, #202a37) !important;
+}
+
+table.MainLayout > tbody > tr > td.PostCount,
+table.MainLayout > tbody > tr > td.TopicCount,
+table.MainLayout > tbody > tr > td.LastPostIcon {
+    background-color: #202a37 !important;
+}
+
+table.MainLayout > tbody > tr > td.LastPost div.Date {
+    color: #a5b4c7 !important;
+}
+
+div.RecentPostList div.PostPreview,
+div.RecentPostList div.PostPreviewAuthor {
+    border-top-color: #36465b !important;
+    border-bottom-color: #36465b !important;
+}
+
+div.RecentPostList div.PostPreviewAuthor {
+    background-color: #8b8350 !important;
+}
+
+div.BeforeCreateTopic {
+    background-color: #1a342c !important;
+    border-color: #36465b !important;
+}
+
+div.ForumPost#PanelPage h1 {
+    color: #f2a0b0 !important;
+}
+
+div.ForumPost#PanelPage div.LastUpdateDT {
+    color: #a5b4c7 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author {
+    background-color: #202a37 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.TopicAuthor {
+    color: #91baff !important;
+    border-color: #4d6b95 !important;
+    background-color: #1b222d !important;
+}
+
+table.PostLayout > tbody > tr > td.Message {
+    background-color: #1b222d !important;
+}
+
+table.PostLayout > tbody > tr > td.Message div.PostDeletedInfo {
+    color: #f2a0b0 !important;
+}
+
+table.PostLayout > tbody > tr > td.Message div.RecentlyUpdated {
+    color: #f2a0b0 !important;
+}
+
+table.PostLayout > tbody > tr > td.Message div.HadSeen {
+    color: #a5b4c7 !important;
+}
+
+table.PostLayout div.Title {
+    border-bottom-color: #36465b !important;
+    color: #f2a0b0 !important;
+}
+
+table.PostLayout > tbody > tr > td.PostPanel,
+table.Stats > tbody > tr > td {
+    background: #1b222d !important;
+}
+
+table.PostLayout div.PostPanel {
+    color: #f2a0b0 !important;
+}
+
+table.PageInfo {
+    background-color: transparent !important;
+}
+
+table.PageInfo > tbody > tr > td {
+    background: #1b222d !important;
+    color: #dce5f1 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.Admin {
+    color: #f2a0b0 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.Moderator {
+    color: #06762f !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.User {
+    color: #dce5f1 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.Admin {
+    color: #f2a0b0 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.Banned {
+    color: #a5b4c7 !important;
+}
+
+table.PostLayout > tbody > tr > td.Author div.Vip {
+    color: #f2a0b0 !important;
+}
+
+table.PostLayout > tbody > tr > td.ManualPost {
+    background-color: #39252f !important;
+}
+
+div.Logs table td {
+    border-bottom-color: #36465b !important;
+}
+
+div.Logs table tr.Fatal td {
+    background-color: #12161d !important;
+    color: #f2a0b0 !important;
+}
+
+div.Logs table tr.Success td {
+    background-color: #1a342c !important;
+    color: #dce5f1 !important;
+}
+
+div.Logs table tr.Error td {
+    background-color: #39252f !important;
+    color: #b97d38 !important;
+}
+
+div.Logs table tr.Bug td {
+    background-color: #202a37 !important;
+    color: #f2a0b0 !important;
+}
+
+div.Logs table tr.Warn td {
+    background-color: #8b8350 !important;
+    color: #dce5f1 !important;
+}
+
+div.Logs table tr.Info td {
+    background-color: #1b222d !important;
+    color: #dce5f1 !important;
+}
+
+div.Logs table tr.Debug td {
+    background-color: #274b80 !important;
+    color: #dce5f1 !important;
+}
+
+table tr.RareDebug td {
+    background-color: #274b80 !important;
+    color: #dce5f1 !important;
+}
+
+table.JobOffers {
+    background: #273447 !important;
+}
+
+table.JobOffers tr {
+    background: #1b222d !important;
+}
+
+table.JobOffers tr.New {
+    background: #1a342c !important;
+}
+
+table.JobOffers tr.Today {
+    background: #8b8350 !important;
+}
+
+table.JobOffers tr.Yesterday {
+    background: #274b80 !important;
+}
+
+table.JobOffers span.Tag {
+    border-color: #36465b !important;
+    background: #202a37 !important;
+}
+
+table.JobOffers td.Highlight {
+    background-color: rgba(160, 160, 160, 0.15) !important;
+}
+
+table.JobOffers td.Leadership {
+    background-color: rgba(255, 0, 0, 0.15) !important;
+}
+
+ul.JobOffersFilterHours {
+    border-color: #36465b !important;
+    background: #202a37 !important;
+}
+
+div.ArchiveLayout div.Version {
+    border-color: #36465b !important;
+}
+
+div.ArchiveLayout div.Version div.Header {
+    background-color: #202a37 !important;
+}
+
+div.ArchiveLayout div.SourceDiff span.Ins {
+    color: #dce5f1 !important;
+    background-color: #1a342c !important;
+}
+
+div.ArchiveLayout div.SourceDiff span.Del {
+    color: #dce5f1 !important;
+    background-color: #39252f !important;
+}
+
+/* ===== Dopracowanie powierzchni, akcentów i formularzy ===== */
+html, body {
+    background: #12161d !important;
+    color: #dce5f1 !important;
+    accent-color: #dce5f1;
+    caret-color: #dce5f1;
+}
+body { background: #12161d !important; }
+body div.SiteHeader { background: #0d1219 !important; color: #a5b4c7 !important; }
+body div.SiteHeader div.Keywords { background: transparent !important; color: #dce5f1 !important; }
+body div.SiteBaner.BanerGradient {
+    background: linear-gradient(110deg, #1a2c40, #142230 58%, #1b303a) !important;
+    border-color: #36465b !important;
+}
+body div.SiteBaner div.Authorize {
+    background: rgb(17 26 38 / 40%) !important;
+    border-color: #58728d !important;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 15%);
+}
+body div.SiteFooter { background: #0e141c !important; color: #a5b4c7 !important; }
+a:link, a:visited, a:active { color: #91baff !important; }
+a:hover, body.Desktop a:hover { color: #bfd7ff !important; }
+:is(a, button, input, select, textarea):focus-visible {
+    outline: 2px solid #dce5f1 !important;
+    outline-offset: 3px;
+}
+::selection { background: #39567d !important; color: #fff !important; }
+body { scrollbar-color: #4e617a #12161d; }
+h1 { color: #dce5f1 !important; }
+:is(h2,h3,h4) { color: #dce5f1 !important; }
+body div.SiteTopMenu ul a:link,
+body div.SiteTopMenu ul a:visited,
+body div.SiteTopMenu ul a:active {
+    background: #202a37 !important;
+    color: #dce5f1 !important;
+    border-color: #36465b !important;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 16%);
+}
+body div.SiteTopMenu ul a:hover {
+    background: #2b3b50 !important;
+    color: #dce5f1 !important;
+    border-color: #638199 !important;
+}
+body div.SiteTopMenu ul li.Special a { color: #966812 !important; }
+body div.Panel { border-radius: 8px; box-shadow: 0 4px 12px rgb(0 0 0 / 14%); }
+body div.Panel div.Content { background: #1b222d !important; color: #dce5f1 !important; }
+body div.Panel div.Header.BlueGradient {
+    background: linear-gradient(to bottom,  #2182c6 10%,#054b63 100%) !important;
+    color: #dce5f1 !important;
+    box-shadow: inset 0 1px rgb(255 255 255 / 5%);
+}
+body div.Panel div.Footer { background: #202a37 !important; }
+div#PanelUserMenu div.Panel div.CreateAccount,
+div#PanelUserMenu div.Panel div.Welcome {
+    background: #274b80 !important;
+    color: #dce5f1 !important;
+}
+div#PanelLastUpdated div.Panel div.Highlight {
+    background: #1a342c !important;
+    color: #06762f !important;
+}
+div#PanelLastVisitedTopics div.Panel div.NotVisited {
+    background: #274b80 !important;
+    box-shadow: inset 3px 0 #91baff;
+}
+div#PanelStats div.Panel div.Content:hover,
+div#PanelUserList div.Panel div.Content:hover { background: #2b3b50 !important; }
+div#PanelStats div.Panel div.Content div.Label { color: #a5b4c7 !important; }
+div#PanelStats div.Panel div.Content div.Value { color: #dce5f1 !important; }
+div#PanelStats div.Panel div.Online div.Value span { color: #dce5f1 !important; }
+div.Home#PanelPage table.Grid td {
+    background: #1b222d !important;
+    border-color: #2c3849 !important;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgb(0 0 0 / 12%);
+}
+div.Home#PanelPage table.Grid td:hover {
+    background: #202a37 !important;
+    border-color: #547094 !important;
+}
+input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=color]):not([type=hidden]),
+textarea, select,
+table.FormsLayout input[type=text], table.FormsLayout input[type=password],
+div.SitePanel input[type=text], div.SitePanel input[type=password] {
+    background: #141b25 !important;
+    color: #dce5f1 !important;
+    border-color: #43556c !important;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgb(0 0 0 / 18%);
+}
+input::placeholder, textarea::placeholder { color: #91a1b7 !important; opacity: 1; }
+input:disabled, textarea:disabled, select:disabled { color: #91a1b7 !important; }
+option { background: #1b222d !important; color: #dce5f1 !important; }
+button,
+table.FormsLayout button,
+div.SitePanel button {
+    background: #273447 !important;
+    color: #dce5f1 !important;
+    border-color: #506783 !important;
+    border-radius: 5px;
+}
+button:hover:not(:disabled),
+table.FormsLayout button:hover,
+div.SitePanel button:hover {
+    background: #2b3b50 !important;
+    color: #dce5f1 !important;
+    border-color: #91baff !important;
+}
+button:disabled { color: #91a1b7 !important; }
+table.FormsLayout { background: #1b222d !important; }
+table.FormsLayout tr, table.FormsLayout td { background: transparent !important; }
+
+/* ===== Forum: wiersze, posty, autorzy, cytaty ===== */
+:is(table.TopicListLayout, table.MainLayout, table.PostLayout, table.Stats) {
+    background: #2c3849 !important;
+    border-color: #2c3849 !important;
+}
+:is(table.TopicListLayout,table.MainLayout,table.PostLayout,table.Stats) > tbody > tr > th {
+    background: linear-gradient(180deg, #293a50, #223145) !important;
+    color: #dce5f1 !important;
+}
+table.MainLayout > tbody > tr.Header > th {
+    background: linear-gradient(180deg, #293a50, #223145) !important;
+}
+table.MainLayout > tbody > tr.Category > td {
+    background: #273447 !important;
+    color: #dce5f1 !important;
+}
+table.TopicListLayout > tbody > tr:hover > td:not(.Bar) { background: #2b3b50 !important; }
+table.MainLayout > tbody > tr:not(.Category):hover > td { background: #2b3b50 !important; }
+table.PostLayout > tbody > tr > td.Author { background: #202a37 !important; }
+table.PostLayout > tbody > tr > td.Message { background: #1b222d !important; color: #dce5f1 !important; }
+table.PostLayout > tbody > tr > td.PostPanel,
+table.PostLayout > tbody > tr > td.Bar { background: #202c3c !important; }
+table.PostLayout > tbody > tr > td.Author div.TopicAuthor {
+    background: #274b80 !important;
+    color: #91baff !important;
+    border-color: #587aaa !important;
+}
+table.PostLayout > tbody > tr > td.Message div.Date { color: #a5b4c7 !important; }
+table.PostLayout > tbody > tr > td.Author div.Vip { color: #b97d38 !important; }
+table.PostLayout > tbody > tr > td.ManualPost { background: #39252f !important; }
+table.PostLayout div.Title,
+div.ForumPost#PanelPage h1 { color: #dce5f1 !important; }
+table.PageInfo > tbody > tr > td { background: #202a37 !important; }
+div#PanelPage table.cite,
+div#PanelPage blockquote {
+    background: #202e40 !important;
+    color: #dce5f1 !important;
+    border-color: #456589 !important;
+    border-left: 3px solid #6a9bc9 !important;
+    border-radius: 5px;
+}
+div#PanelPage table.cite td { background: transparent !important; }
+
+/* ===== Kolorowanie kodu C++, Python i Haskell ===== */
+div#PanelPage :is(div.code, div.codeCpp, div.codePy, div.codeHaskell, pre) {
+    background: #141b25 !important;
+    color: #dce5f1 !important;
+    border-color: #36465b !important;
+    border-radius: 6px;
+    font-family: Consolas, 'Cascadia Mono', 'Courier New', monospace;
+}
+div#PanelPage div.codeInfo { background: #141b25 !important; }
+div#PanelPage div.codeInfo div.header { background: #26364a !important; color: #a5b4c7 !important; }
+div#PanelPage span.text,
+div#PanelPage span.textml,
+div#PanelPage span.rawstr { color: #32712a !important; }
+div#PanelPage span.rawdelim { color: #dce5f1 !important; }
+div#PanelPage span.digit { color: #efbf8f !important; }
+div#PanelPage span.operator,
+div#PanelPage span.destructor { color: #83cfdb !important; }
+div#PanelPage span.comment,
+div#PanelPage span.multiComment { color: #91a1b7 !important; }
+div#PanelPage span.block,
+div#PanelPage span.semicolon,
+div#PanelPage span.comma { color: #a5b4c7 !important; }
+div#PanelPage span.preprocessor { color: #dce5f1 !important; }
+div#PanelPage span.keyword,
+div#PanelPage span.keywordCPP11,
+div#PanelPage span.keywordVCPP { color: #c7a8fa !important; }
+div#PanelPage span.garbage { color: #f2a0b0 !important; }
+span.STCRowNo { color: #91a1b7 !important; border-color: #36465b !important; }
+span.STCCommand { background: #273447 !important; color: #dce5f1 !important; }
+del { background: #39252f !important; color: #f2a0b0 !important; }
+ins { background: #1a342c !important; color: #06762f !important; }
+
+@keyframes example {
+    from { background-color: #6a3943; }
+    to { background-color: #1b222d; }
+}
+}
